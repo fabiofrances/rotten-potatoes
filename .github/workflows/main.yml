@@ -27,7 +27,7 @@ jobs:
           push: true
           tags: |
             fabiofrances/rotten-potatoes:latest
-            fabiofrances/rotten-potatoes:$ {{ github.run_number }}
+            fabiofrances/rotten-potatoes:${{ github.run_number }}
             
       
   
